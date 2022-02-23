@@ -26,6 +26,29 @@
 						<ActiveSource Name="HumanBrushTeeth_S08HU_69" ID="{F85D142F-0358-4E53-9628-DE7B2A87EA9A}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Patrick Booth_ Wood_Walk" ID="{E465AACA-8893-4F15-BA51-3EF1F53C1E56}" ShortID="94136195">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{636E3EB0-A36B-4901-B426-30C91E416529}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{944ED653-36A3-40D5-B681-6A87B961589C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BootWalk" ID="{B151A679-1909-409A-8014-DA48A661EC22}">
+							<Language>SFX</Language>
+							<AudioFile>BootWalk.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="540610985"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="BootWalk" ID="{B151A679-1909-409A-8014-DA48A661EC22}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
