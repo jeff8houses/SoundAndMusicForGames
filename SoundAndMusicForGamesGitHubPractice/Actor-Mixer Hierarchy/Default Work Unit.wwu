@@ -26,6 +26,29 @@
 						<ActiveSource Name="HumanBrushTeeth_S08HU_69" ID="{F85D142F-0358-4E53-9628-DE7B2A87EA9A}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Faith Giles" ID="{E7C19ECC-F1C3-4D8B-B7D0-865C20C443E2}" ShortID="429200429">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{636E3EB0-A36B-4901-B426-30C91E416529}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{944ED653-36A3-40D5-B681-6A87B961589C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Guitar Pick_Metallic_Drop-02" ID="{E9A4ED1F-8A11-4699-BBD6-D4CA31F57121}">
+							<Language>SFX</Language>
+							<AudioFile>Guitar Pick_Metallic_Drop-02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="937714673"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Guitar Pick_Metallic_Drop-02" ID="{E9A4ED1F-8A11-4699-BBD6-D4CA31F57121}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
