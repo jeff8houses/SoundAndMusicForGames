@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0818E48D-8DDB-454D-8AC8-1330E88C713B}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{0818E48D-8DDB-454D-8AC8-1330E88C713B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="AshlynneDoidgeGithub" ID="{3A867459-48C9-4633-9F09-0F2ECC17EC69}">
+					<ChildrenList>
+						<Action Name="" ID="{F02BE463-6BED-4280-975E-D49F730E88B7}" ShortID="938723513">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AshlynneDoidgeAudio" ID="{EF7FFF4A-DBCB-4295-8C59-6F66AC78DD42}" WorkUnitID="{594BA856-C241-47EA-9DE7-94604456A123}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
+
