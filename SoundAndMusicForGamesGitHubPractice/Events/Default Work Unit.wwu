@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{565AA1EF-4BB3-402A-976A-EC6770654A83}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{565AA1EF-4BB3-402A-976A-EC6770654A83}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{565AA1EF-4BB3-402A-976A-EC6770654A83}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="JayShonsey_SFXEvent" ID="{12D5D019-8B38-406B-8DFB-46A8F644DF85}">
+					<ChildrenList>
+						<Action Name="" ID="{0014AB44-55E7-4F5F-B3F1-82D2B09D0D86}" ShortID="286976411">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JS_SFX_Whistle" ID="{0EC88149-DBDB-4335-A12D-297A9D55C7BC}" WorkUnitID="{FF3AD977-8BFF-43DF-A70E-EAAA972B4EC2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
