@@ -49,6 +49,29 @@
 						<ActiveSource Name="moombahton-drums" ID="{45FE101B-DC34-4AA0-8CEA-754563489C78}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="JS_SFX_Whistle" ID="{0EC88149-DBDB-4335-A12D-297A9D55C7BC}" ShortID="1001846510">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{636E3EB0-A36B-4901-B426-30C91E416529}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{944ED653-36A3-40D5-B681-6A87B961589C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="JS_SFX_Whistle" ID="{5EFE119D-E857-4D26-A9EF-DD57548CA693}">
+							<Language>SFX</Language>
+							<AudioFile>JS_SFX_Whistle.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="156009256"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="JS_SFX_Whistle" ID="{5EFE119D-E857-4D26-A9EF-DD57548CA693}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
