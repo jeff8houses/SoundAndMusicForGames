@@ -49,6 +49,52 @@
 						<ActiveSource Name="moombahton-drums" ID="{45FE101B-DC34-4AA0-8CEA-754563489C78}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Kyle Glueckert" ID="{ED9923A5-C2F9-461C-AAB0-18A7F3F4D6C6}" ShortID="438778214">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-810</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{7E2ED0AF-51BD-4D1E-8B80-97333F294907}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{636E3EB0-A36B-4901-B426-30C91E416529}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{944ED653-36A3-40D5-B681-6A87B961589C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="KG_Shoe_Lace_Front_Whip" ID="{216BB35E-BFC0-470E-AFE2-E526A28C2286}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.1869648021309"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.62446785419838"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>KG_Shoe_Lace_Front_Whip.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="924717040"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="KG_Shoe_Lace_Front_Whip" ID="{216BB35E-BFC0-470E-AFE2-E526A28C2286}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
