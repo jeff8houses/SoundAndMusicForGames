@@ -49,6 +49,41 @@
 						<ActiveSource Name="moombahton-drums" ID="{45FE101B-DC34-4AA0-8CEA-754563489C78}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Jordan Stoner" ID="{F924F5E4-3DE4-4240-B224-5EDCD9AE4040}" ShortID="918122055">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>30</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{636E3EB0-A36B-4901-B426-30C91E416529}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{944ED653-36A3-40D5-B681-6A87B961589C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="grunt_3" ID="{F0D0C265-95B0-472A-AC5A-02C8925C3CD2}">
+							<Language>SFX</Language>
+							<AudioFile>grunt_3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="241113969"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="grunt_3" ID="{F0D0C265-95B0-472A-AC5A-02C8925C3CD2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
